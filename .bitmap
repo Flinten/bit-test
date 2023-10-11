@@ -9,5 +9,19 @@
  */
 
 {
+    "ui/button": {
+        "name": "ui/button",
+        "scope": "",
+        "version": "",
+        "defaultScope": "flinten.test",
+        "mainFile": "index.ts",
+        "rootDir": "test/ui/button",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
     "$schema-version": "17.0.0"
 }
