@@ -22,5 +22,8 @@ jobs:
         uses: actions/checkout@v3
       - name: Initialize Bit
         uses: bit-tasks/init@v1
+      - name: lane import
+        run: |
+          bit lane import pr-1
       - name: Bit Pull Request
         uses: bit-tasks/pull-request@v1
