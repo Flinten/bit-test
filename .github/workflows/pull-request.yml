@@ -23,6 +23,6 @@ jobs:
       - name: Initialize Bit
         uses: bit-tasks/init@v1
       - name: test cmd
-        run: bit lane remove flinten.test/pr-1 —remote —silent —force   
+        run: bit lane remove flinten.test/pr-1 --remote --silent --force   
       - name: Bit Pull Request
         uses: bit-tasks/pull-request@v1
