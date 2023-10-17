@@ -24,6 +24,6 @@ jobs:
         uses: bit-tasks/init@v1
       - name: lane import
         run: |
-          bit lane import pr-1
+          bit lane import flinten.test/pr-1
       - name: Bit Pull Request
         uses: bit-tasks/pull-request@v1
