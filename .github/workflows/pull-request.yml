@@ -1,10 +1,14 @@
 name: Bit Pull Request
+#on:
+#  workflow_call:
 on:
-  workflow_call:
-
-    secrets:
-      BIT_CONFIG_USER_TOKEN:
-        required: true
+  pull_request:
+    types:
+      - opened
+      - synchronize 
+#    secrets:
+#      BIT_CONFIG_USER_TOKEN:
+#        required: true
 #  pull_request:
 #    types:
 #      - opened
